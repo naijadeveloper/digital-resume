@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  a {
+    @apply font-semibold text-blue-600;
+  }
+
+  a:hover {
+    @apply text-blue-400;
+  }
+
+  li {
+    @apply leading-8;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h1,
+  h2 {
+    @apply my-3;
+  }
+}

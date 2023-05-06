@@ -3,7 +3,11 @@ export default {
   content: ["index.html", "./src/**/*.ts"],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        readex: ['Readex Pro']
+      }
+    },
   },
   plugins: [],
 };
