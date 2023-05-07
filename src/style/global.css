@@ -6,7 +6,7 @@
 
 @layer base {
   a {
-    @apply font-semibold text-blue-600;
+    @apply font-semibold text-blue-600 transition-colors dark:text-blue-300;
   }
 
   a:hover {
@@ -18,11 +18,11 @@
   }
 
   h1 {
-    @apply text-5xl;
+    @apply text-5xl max-sm:text-4xl;
   }
 
   h2 {
-    @apply text-3xl;
+    @apply text-3xl max-sm:text-2xl;
   }
 
   h1,
