@@ -9,8 +9,16 @@
     @apply font-semibold text-blue-600 transition-colors dark:text-blue-300;
   }
 
+  #socials-list a {
+    @apply rounded bg-blue-400 px-2 text-gray-800 transition-colors dark:bg-blue-300;
+  }
+
   a:hover {
     @apply text-blue-400;
+  }
+
+  #socials-list a:hover {
+    @apply bg-blue-300 dark:bg-blue-400;
   }
 
   li {
