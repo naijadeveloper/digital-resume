@@ -1,17 +1,17 @@
 import './style/global.css';
 
 //Get image from my github profile
-const img = document.querySelector("#profile-image") as HTMLImageElement;
+// const img = document.querySelector("#profile-image") as HTMLImageElement;
 
-async function getImage() {
-  const res = await fetch("https://api.github.com/users/naijadeveloper");
-  const data = await res.json();
-  return data.avatar_url;
-}
+// async function getImage() {
+//   const res = await fetch("https://api.github.com/users/naijadeveloper");
+//   const data = await res.json();
+//   return data.avatar_url;
+// }
 
-getImage().then((img_url: string) => {
-  img.src = img_url;
-});
+// getImage().then((img_url: string) => {
+//   img.src = img_url;
+// });
 
 // 🌞 , 🌚 theme emojis for content
 
